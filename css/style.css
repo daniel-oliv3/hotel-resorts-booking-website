@@ -50,7 +50,7 @@ body {
 }
 
 section {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -65,6 +65,7 @@ section {
     text-align: center;
     text-transform: capitalize;
     transition: .2s linear;
+    margin-top: 1rem;
 }
 
 .btn:hover {
@@ -88,6 +89,10 @@ section {
     font-size: 2rem;
 }
 
+.header .flex .btn {
+    margin-top: 0;
+}
+
 .header .flex .fa-bars {
     color: var(--sub-color);
     font-size: 3rem;
@@ -102,7 +107,7 @@ section {
     gap: 1.5rem;
     margin-top: 2rem;
     background-color: var(--sub-color);
-    padding: .5rem 2rem;
+    padding: .5rem;
     border-radius: .5rem;
 }
 
@@ -163,10 +168,24 @@ section {
         font-size: 55%;
     }
 
+    .header .flex .fa-bars {
+        display: inline-block;
+    }
+
+    .header .flex .btn {
+        display: none;
+    }
+
+    .header .navbar {
+        flex-flow: column;
+        padding: 2rem;
+    }
+
 }
 
 @media (max-width: 768px){
 
+    
 
 }
 
