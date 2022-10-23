@@ -179,6 +179,11 @@ section {
     .header .navbar {
         flex-flow: column;
         padding: 2rem;
+        display: none;
+    }
+
+    .header .navbar.active{
+        display: flex;
     }
 
 }
@@ -193,6 +198,10 @@ section {
 
     html {
         font-size: 50%;
+    }
+
+    .header .flex .logo {
+        font-size: 2rem;
     }
 
 }
