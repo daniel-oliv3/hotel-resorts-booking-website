@@ -64,6 +64,7 @@ section {
     color: var(--sub-color);
     text-align: center;
     text-transform: capitalize;
+    transition: .2s linear;
 }
 
 .btn:hover {
@@ -91,10 +92,31 @@ section {
     color: var(--sub-color);
     font-size: 3rem;
     cursor: pointer;
+    display: none;
 }
 
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background-color: var(--sub-color);
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
 
+.header .navbar a {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+}
 
+.header .navbar a:hover {
+    background-color: var(--main-color);
+    color: var(--sub-color);
+}
 
 
 
